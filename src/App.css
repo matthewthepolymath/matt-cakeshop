@@ -313,3 +313,19 @@ h6,
   background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(./img/bg.jpg) center center no-repeat;
   background-size: cover;
 }
+
+.cakeDiv{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.cake{
+  width: 300px;
+  background-color: #E88F2A;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 20px;
+}

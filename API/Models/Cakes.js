@@ -19,6 +19,6 @@ const CakeSchema = mongoose.Schema({
     },
 })
 
-const Cake = mongoose.model("cakes", CakeSchema)
+const Cake = new mongoose.model("cakes", CakeSchema)
 
 module.exports = Cake
